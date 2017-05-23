@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example use hotkeys.js</title>
+<script type="text/javascript" src="hotkeys.js"></script>
+</head>
+<body>
+
+<h2>Show alert message with alt+m</h2>
+<h2>Show alert message with ctrl+alt+d</h2>
+<button name="btnClick" id="btnClick" onclick="alert('button click');">ctrl+b for press button</button>
+
+</body>
+
+<script type="text/javascript">
+
+( function(window) {
+	
+	hotkeys( ALT,'m', function(){ alert('alt+m'); });
+	hotkeys( CTRL_ALT,'d', function(){ alert('ctrl+alt+d'); });
+	hotkeys( CTRL, 'b', function(){ document.getElementById('btnClick').click() });
+	
+})(window, document);
+
+</script>
+</html>

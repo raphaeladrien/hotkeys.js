@@ -1,4 +1,3 @@
-//TO CALL hotkeys( ALT, '1', function(){ alert('Hello Nurse!!!'); } );
 var CTRL = 'ctrl+';
 var ALT = 'alt+';
 var CTRL_ALT = 'ctrl+alt+';
