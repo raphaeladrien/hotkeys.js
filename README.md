@@ -18,6 +18,6 @@ To add your keyboard combination as follow.
 
 ```
 
-#License
+# License
 
 * [GNU General Public License] (https://en.wikipedia.org/wiki/GNU_General_Public_License)
